@@ -1,0 +1,1 @@
+SELECT * FROM superstore_db.superstore_raw;
