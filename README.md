@@ -193,7 +193,6 @@ Possible extension of this project includes :
 - Building a **Power BI dashboard connected to the SQL database**
 - Using **Python** (Pandas / Matplotlib) for advanced analysics
 
-
 ---
 
 ##Author
@@ -201,7 +200,7 @@ Possible extension of this project includes :
 Business Informatics Student (**Wirtschaftsinformatik B.Sc.**)
 Aspiring Data Analyst
 
-
+---
 
 
 
