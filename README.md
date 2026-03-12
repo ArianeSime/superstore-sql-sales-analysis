@@ -132,22 +132,11 @@ This process simulates a simplified **ETL workflow** commonly used in data analy
 
 ## SQL Analysis
 
-The following analyses were performed using SQL queries.
+Several analytical queries were performed to understand business performance.
 
----
+The detailed queries and results are documented in the file **`analysis_description`**
 
-### 1. Overall Business Performance
-
-Calculates total revenue, total profit, and overall profit margin.
-
-```sql
-SELECT 
-SUM(sales) AS total_revenue,
-SUM(profit) AS total_profit,
-ROUND(SUM(profit)/SUM(sales)*100,2) AS profit_margin_pct
-FROM order_items;
-
----
+----
 
 ## Key Business Insights
 The analysis reveals several important patterns:
@@ -177,15 +166,18 @@ Based on the analysis, several actions could help improve performance:
 
 - MySQL
 - MySQL Workbench
-- SQL (JOIN, GROUP BY, CASE, aggregation functions)
+- SQL (SELECT,JOIN, GROUP BY, CASE, aggregation functions)
 
 ---
 
 ## Files in This Repository
 
-- **Superstore_Raw_Data.csv** -- Original dataset  
-- **Superstore_Sales_Dashboard.xlsx** -- Final Excel dashboard and analysis  
-- **Superstore_dashboard_preview.png** -- Dashboard screenshot preview
+- **Superstore_Raw_Data.csv** — original dataset  
+- **superstore_analysis.sql** — data modeling and business analysis queries  
+- **superstore_database_schema.PNG** — EER database diagram  
+- **analysis_description** — description of the analytical queries and results  
+
+---
 
 ## Future Improvements
 
