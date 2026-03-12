@@ -187,7 +187,7 @@ Possible extension of this project includes :
 
 ---
 
-##Author
+## Author
 **Ariane Sime**
 Business Informatics Student (**Wirtschaftsinformatik B.Sc.**)
 Aspiring Data Analyst
