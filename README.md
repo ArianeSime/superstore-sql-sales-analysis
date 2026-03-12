@@ -146,3 +146,72 @@ SUM(sales) AS total_revenue,
 SUM(profit) AS total_profit,
 ROUND(SUM(profit)/SUM(sales)*100,2) AS profit_margin_pct
 FROM order_items;
+
+---
+
+## Key Business Insights
+The analysis reveals several important patterns:
+
+- Technology generates the highest revenue and profit.
+- Sales increased significantly in later years compared to earlier periods.
+- The **West region**  is the strongest contributor to revenue and profit.
+- A small number of customers generate a significant share of total sales.
+- Some product sub-categories contribute disproportionately to total revenue.
+- Some high-revenue products (such as Tables) are not profitable.
+- Profitability varies significantly across product categories and regions.
+
+--- 
+
+## Business Recommendations
+
+Based on the analysis, several actions could help improve performance:
+
+- Focus marketing and inventory strategies on high-performing product categories.
+- Develop retention strategies for high-value customers.
+- Monitor regional performance to identify operational inefficiencies.
+- Carefully manage discount strategies to maintain healthy profit margins.
+
+---
+
+## Tools Used
+
+- MySQL
+- MySQL Workbench
+- SQL (JOIN, GROUP BY, CASE, aggregation functions)
+
+---
+
+## Files in This Repository
+
+- **Superstore_Raw_Data.csv** -- Original dataset  
+- **Superstore_Sales_Dashboard.xlsx** -- Final Excel dashboard and analysis  
+- **Superstore_dashboard_preview.png** -- Dashboard screenshot preview
+
+## Future Improvements
+
+Possible extension of this project includes :
+- Building a **Power BI dashboard connected to the SQL database**
+- Using **Python** (Pandas / Matplotlib) for advanced analysics
+
+
+---
+
+##Author
+**Ariane Sime**
+Business Informatics Student (**Wirtschaftsinformatik B.Sc.**)
+Aspiring Data Analyst
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
