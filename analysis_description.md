@@ -52,7 +52,7 @@ ORDER BY total_revenue DESC;
 ```
 
 ### Result
-| Catergory |  Total Revenue |  Total Profit | Profit Margin |
+| Category |  Total Revenue |  Total Profit | Profit Margin |
 |------|------|-----|------|
 | Technology | $835,000 | $145,387 | 17.39% |
 | Furniture | $733,047 | $16,980 | 2.32% |
@@ -102,7 +102,7 @@ ORDER BY order_year;
 ## Analysis 4: Regional Sales Performance
 
 ### Business Question
-Which customers generate the most revenue and profit?
+Which regions generate the most revenue and profit?
 
 ### SQL Query
 ```sql
@@ -194,10 +194,10 @@ ORDER BY total_profit DESC;
 |------|------|-----|
 | Technology | $145,387 | High Profit |
 | Office Supplies | $120,489 | High Profit |
-| Furniture | $16,980| Low Profit
+| Furniture | $16,980| Low Profit |
 
 ### Insight
-- Technology and Office Supplies have a hight profit level.
+- Technology and Office Supplies show a high level of profitability.
 
 ---
 
@@ -207,6 +207,19 @@ ORDER BY total_profit DESC;
 - Profitability analysis reveals that some high-selling products and regions contribute less to overall profit.
 
 ---
+
+## Analytical Approach
+
+The analysis followed a structured process:
+
+1. Build a normalized relational database from the raw dataset.
+2. Validate the data using record counts and integrity checks.
+3. Perform SQL analysis to answer business questions related to:
+   - revenue performance
+   - product profitability
+   - regional performance
+   - customer contribution
+4. Interpret the results to extract business insights and recommendations.
 
 # Data Modeling Adjustment
 
