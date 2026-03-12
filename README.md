@@ -134,7 +134,7 @@ This process simulates a simplified **ETL workflow** commonly used in data analy
 
 Several analytical queries were performed to understand business performance.
 
-The detailed queries and results are documented in the file **`analysis_description`**
+The detailed queries and explanations are documented in [analysis_description.md](analysis_description.md).
 
 ----
 
@@ -167,6 +167,7 @@ Based on the analysis, several actions could help improve performance:
 - MySQL
 - MySQL Workbench
 - SQL (SELECT,JOIN, GROUP BY, CASE, aggregation functions)
+- GitHub
 
 ---
 
