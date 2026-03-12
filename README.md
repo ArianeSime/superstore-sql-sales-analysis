@@ -110,7 +110,7 @@ The database was designed using the following tables:
 
 The relational structure of the database is shown below.
 
-![Database Schema](superstore_database_schema.png)
+![Database Schema](superstore_database_schema.PNG)
 
 The schema defines relationships between customers, orders, products, and order items using **primary and foreign key relationships**.
 
