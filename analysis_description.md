@@ -7,13 +7,13 @@ The objective of these queries is to answer key business questions related to re
 ---
 
 
-## Analysis 1 — Overall Business Performance
+## Analysis 1: Overall Business Performance
 
 ### Business Question
 What are the total revenue, total profit, and overall profit margin?
 
 ### SQL Query
-sql ```s
+sql ```
 SELECT 
     SUM(sales) AS total_revenue_$,
     SUM(profit) AS total_profit_$,
@@ -25,7 +25,16 @@ FROM order_items;
 This query provides a high-level overview of the company’s overall financial performance.
 
 ### Result
-table here
+| Column | Description |
+|------|------|
+| customer_id | Unique identifier for each customer |
+| customer_name | Customer name |
+| segment | Customer segment |
+| country | Country |
+| city | City |
+| state | State |
+| postal_code | Postal code |
+| region | Geographic region |
 
 ### Main Insight
 hgjgug
@@ -38,7 +47,7 @@ hgjgug
 Which product categories generate the most revenue and profit?
 
 ### SQL Query
-sql ```s
+```sql
 SELECT 
     p.category,
     SUM(oi.sales) AS total_revenue,
@@ -66,7 +75,7 @@ table here
 How have sales and profits evolved over time?
 
 ### SQL Query
-sql ```s
+```sql
 SELECT
     YEAR(o.order_date) AS order_year,
     ROUND(SUM(oi.sales), 2) AS total_revenue,
