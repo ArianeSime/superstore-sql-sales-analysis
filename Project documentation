@@ -1,0 +1,16 @@
+#SQL Analysis
+
+The following analyses were performed using SQL queries.
+
+---
+
+### 1. Overall Business Performance
+
+Calculates total revenue, total profit, and overall profit margin.
+
+```sql
+SELECT 
+SUM(sales) AS total_revenue,
+SUM(profit) AS total_profit,
+ROUND(SUM(profit)/SUM(sales)*100,2) AS profit_margin_pct
+FROM order_items;
